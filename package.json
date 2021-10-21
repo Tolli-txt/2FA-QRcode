@@ -1,0 +1,25 @@
+{
+  "name": "2FA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/qrcode": "^1.4.1",
+    "@types/speakeasy": "^2.0.6",
+    "express": "^4.17.1",
+    "node-json-db": "^1.4.1",
+    "qrcode": "^1.4.4",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
